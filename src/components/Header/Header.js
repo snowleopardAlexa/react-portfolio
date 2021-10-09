@@ -6,23 +6,23 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons  } from './HeaderStyl
 const Header = () => (
     <Container>
     <Div1>
-        <Link href="/">
+        <Link href="">
             <a><span>Portfolio</span></a>
         </Link>
     </Div1>
     <Div2>
         <li>
-            <Link>
+            <Link href="">
                 <NavLink>Projects</NavLink>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link href="">
                 <NavLink>Technologies</NavLink>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link href="">
                 <NavLink>About</NavLink>
             </Link>
         </li>
