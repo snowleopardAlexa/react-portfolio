@@ -10,7 +10,7 @@ const Header = () => (
     <Div1>
         <Link href="/">
           <a style={{ display: "flex", alignItems: "center", color: "red" }}>
-          <GiPawHeart size="3rem" /><Span>Portfolio</Span>
+          <GiPawHeart size="2rem" /><Span>Portfolio</Span>
           </a>
         </Link>
     </Div1>
