@@ -5,7 +5,7 @@ import { Container, Div1 } from './HeaderStyles';
 const Header = () => (
     <Container>
         <Div1>
-            <Link href="/">
+            <Link href="">
                 <a><span>Portfolio</span></a>
             </Link>
         </Div1>
