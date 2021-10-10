@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Header from '../components/Header/Header'
+import Header from '../components/Footer/Footer'
+import Footer from '../components/Header/Header'
 import { Container } from './LayoutStyles'
 
 const Layout = ({ children }) => {
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
         <Container>
            <Header />
            <main>{children}</main>
+           <Footer />
         </Container>
     )
 }
